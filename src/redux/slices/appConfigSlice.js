@@ -1,32 +1,23 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { axiosClient } from "../../utils/axiosClient";
 
-export const getMyInfo = createAsyncThunk(
-  "user/getMyInfo",
-  async (_, thunkApi) => {
-    try {
-      thunkApi.dispatch(setLoading(true));
-      const response = await axiosClient.get("/user/getMyInfo");
-      return response.result;
-    } catch (error) {
-      return Promise.reject(error);
-    } finally {
-      thunkApi.dispatch(setLoading(false));
-    }
+export const getMyInfo = createAsyncThunk("user/getMyInfo", async () => {
+  try {
+    const response = await axiosClient.get("/user/getMyInfo");
+    return response.result;
+  } catch (error) {
+    return Promise.reject(error);
   }
-);
+});
 
 export const updateMyProfile = createAsyncThunk(
   "user/updateMyProfile",
-  async (body, thunkApi) => {
+  async (body) => {
     try {
-      thunkApi.dispatch(setLoading(true));
       const response = await axiosClient.put("/user/", body);
       return response.result;
     } catch (error) {
       return Promise.reject(error);
-    } finally {
-      thunkApi.dispatch(setLoading(false));
     }
   }
 );
@@ -35,11 +26,15 @@ const appConfigSlice = createSlice({
   name: "appConfigSlice",
   initialState: {
     isLoading: false,
+    toastData: {},
     myProfile: null,
   },
   reducers: {
     setLoading: (state, action) => {
       state.isLoading = action.payload;
+    },
+    showToast: (state, action) => {
+      state.toastData = action.payload;
     },
   },
   extraReducers: (builder) => {
@@ -55,4 +50,4 @@ const appConfigSlice = createSlice({
 
 export default appConfigSlice.reducer;
 
-export const { setLoading } = appConfigSlice.actions;
+export const { setLoading, showToast } = appConfigSlice.actions;

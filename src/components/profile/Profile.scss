@@ -31,6 +31,9 @@
       margin-top: 12px;
     }
 
+    .bio {
+      margin-top: 6px;
+    }
     .follower-info {
       display: flex;
       justify-content: center;
@@ -42,6 +45,9 @@
     .update-profile {
       margin-top: 20px;
       display: inline-block;
+    }
+    .follow-link {
+      color: var(--accent-color);
     }
   }
 }
