@@ -2,7 +2,8 @@
   border: 1px solid var(--border-color);
   margin-top: 20px;
   border-radius: 4px;
-
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   .heading {
     display: flex;
     align-items: center;
@@ -10,6 +11,20 @@
     height: 60px;
     padding: 20px;
     cursor: pointer;
+
+    .avatar {
+      border-radius: 50%;
+      padding: 4px;
+      border: 2px solid #73b0cd;
+      background: rgb(135, 8, 219);
+      background: linear-gradient(
+        115deg,
+        rgba(135, 8, 219, 0.7681197478991597) 5%,
+        rgba(178, 81, 244, 0.7793242296918768) 24%,
+        rgba(231, 45, 198, 0.7793242296918768) 57%,
+        rgba(252, 176, 69, 0.4908088235294118) 93%
+      );
+    }
   }
   .content {
     height: 400px;

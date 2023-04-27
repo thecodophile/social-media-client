@@ -29,7 +29,9 @@ const Follower = ({ user }) => {
         className="user-info"
         onClick={() => navigate(`/profile/${user._id}`)}
       >
-        <Avatar src={user?.avatar?.url} />
+        <div className="avatar">
+          <Avatar src={user?.avatar?.url} />
+        </div>
         <h4 className="name">{user?.name}</h4>
       </div>
 

@@ -14,11 +14,55 @@
   .right-part {
     flex: 1;
     margin-top: 20px;
+    padding-left: 10px;
+    .following {
+      border-radius: 4px;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      padding: 14px;
+
+      .title {
+        font-size: 1.1rem;
+        font-weight: bold;
+        // background-color: #a8dff1;
+        background: linear-gradient(
+          90deg,
+          rgba(2, 0, 36, 1) 0%,
+          rgba(122, 218, 238, 1) 0%,
+          rgba(99, 184, 201, 0.1742822128851541) 100%
+        );
+        padding: 5px 5px;
+        border-left: 4px solid #3d7c98;
+      }
+    }
   }
   .suggestions {
     margin-top: 40px;
+    border-radius: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 14px;
+    .title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      // background-color: #a8dff1;
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(122, 218, 238, 1) 0%,
+        rgba(99, 184, 201, 0.1742822128851541) 100%
+      );
+      padding: 5px 5px;
+      border-left: 4px solid #3d7c98;
+    }
   }
   .title {
     margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
   }
 }

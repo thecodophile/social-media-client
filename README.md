@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1><strong>Connecta</strong> - connect with friends</h1>
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+<P><strong>Connecta</strong> - is a user-friendly social media platform that connects people and friends from around the world. With our easy-to-use interface and secure user authentication system, Connecta allows you to create and customize your own profile, share your posts, and connect with other users through likes & follows. Whether you're here to network, socialize, or simply explore, we invite you to join the Connecta community and experience the power of human connection in the digital age. It is built using modern front-end technologies, including React, Redux Toolkit, sass, and other libraries.</p>
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> **This is the Frontend Repository of "Connecta"**
 
-### `npm test`
+> **Click here to open Backend Repository `[server](https://github.com/thecodophile/social-media-server)`**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features 📋
 
-### `npm run build`
+⚡️ **User authentication system**: The app uses JWT for secure user authentication, allowing users to login, signup, and logout with ease.\
+⚡️ **User profiles**: Each user has a customizable profile with profile picture uploads using Cloudinary.\
+⚡️ **Post creation and sharing**: Users can create and share posts with the community and see when the post was created.\
+⚡️ **Social features**: The app includes like and dislike functionalities for posts, as well as follow and unfollow functionalities for users.\
+⚡️ **Real-time updates**: Posts and notifications update in real-time, ensuring users stay informed and engaged.\
+⚡️ **Responsive design**: The app is fully responsive with a user-friendly interface that adapts to different screen sizes.\
+⚡️ **Tech stack**: The app uses React.js, Redux Toolkit, Node.js, Express.js, MongoDB, Sass, and Jest for unit testing.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dependencies 📚
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`React` `SASS` `React-Router-DOM` `Redux-Toolkit` `Axios` `React-Icons` `React-Hot-Toast` `React-Top-Loading-Bar`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+These dependencies are listed in the `package.json`
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐ Star this repo on GitHub — it helps!

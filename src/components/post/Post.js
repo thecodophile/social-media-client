@@ -33,7 +33,9 @@ const Post = ({ post }) => {
         className="heading"
         onClick={() => navigate(`/profile/${post.owner._id}`)}
       >
-        <Avatar src={post.owner?.avatar?.url} />
+        <div className="avatar">
+          <Avatar src={post.owner?.avatar?.url} />
+        </div>
         <h4>{post.owner?.name}</h4>
       </div>
       <div className="content">

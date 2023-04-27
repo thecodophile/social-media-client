@@ -25,7 +25,7 @@ const Navbar = () => {
     <div className="Navbar">
       <div className="container">
         <h2 className="banner hover-link" onClick={() => navigate("/")}>
-          Social Media
+          {"<CONNECTA/>"}
         </h2>
         <div className="right-side">
           <div

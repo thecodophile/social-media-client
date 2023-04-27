@@ -6,14 +6,20 @@
   .left-part {
     flex: 1;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .input-user-img {
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 20px;
 
       .labelImg {
-        width: 80px;
-        height: 80px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
         border: 2px dashed var(--accent-color);
         cursor: pointer;
@@ -33,6 +39,8 @@
   }
   .right-part {
     flex: 3;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 4px;
 
     form {
       border: 1px solid var(--border-color);
@@ -53,6 +61,7 @@
 
     .delete-account {
       margin-top: 16px;
+      margin-left: 10px;
       background-color: rgb(246, 58, 58);
     }
   }

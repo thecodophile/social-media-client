@@ -3,24 +3,48 @@
   height: 60px;
   position: fixed;
   top: 0;
-  background-color: white;
+  background-color: #3d7c98;
+  color: #f5f5f5;
   border-bottom: 1px solid var(--border-color);
   .container {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    .banner {
+      color: #f5f5f5;
+    }
   }
 
   .right-side {
     display: flex;
     gap: 20px;
     align-items: center;
+
+    .profile {
+      border: 2px solid #c2528b;
+      border-radius: 50%;
+    }
   }
   .logout {
     font-size: 1.8rem;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Navbar {
+    position: sticky;
+    .container {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    .right-side {
+      position: absolute;
+      left: 320px;
+    }
   }
 }
