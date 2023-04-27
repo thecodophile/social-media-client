@@ -12,7 +12,7 @@
 
 > **This is the Frontend Repository of "Connecta"**
 
-> **Click here to open Backend Repository `[server](https://github.com/thecodophile/social-media-server)`**
+> **Click here to open Backend Repository -> [server](https://github.com/thecodophile/social-media-server)**
 
 ## Features 📋
 
