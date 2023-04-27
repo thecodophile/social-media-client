@@ -24,7 +24,7 @@
 ⚡️ **Social features**: The app includes like and dislike functionalities for posts, as well as follow and unfollow functionalities for users.\
 ⚡️ **Real-time updates**: Posts and notifications update in real-time, ensuring users stay informed and engaged.\
 ⚡️ **Responsive design**: The app is fully responsive with a user-friendly interface that adapts to different screen sizes.\
-⚡️ **Tech stack**: The app uses React.js, Redux Toolkit, Node.js, Express.js, MongoDB, Sass, and Jest for unit testing.
+⚡️ **Tech stack**: The app uses React.js, Redux Toolkit, Node.js, Express.js, MongoDB and Sass for designing.
 
 ## Dependencies 📚
 
