@@ -14,6 +14,8 @@
 
 > 🧩 **Click here to open Backend Repository -> [server](https://github.com/thecodophile/social-media-server)**
 
+---
+
 ## Features 📋
 
 ⚡️ **User authentication system**: The app uses JWT for secure user authentication, allowing users to login, signup, and logout with ease.\
